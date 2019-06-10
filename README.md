@@ -89,7 +89,8 @@ conn = sqlite3.connect('C:\\sqlite\\databases\\waterdb\\waterdb.db')
 c = conn.cursor()
 
 # LOOP THROUGH DATAFRAME AND INSERT INTO SQLITE DB
-# Note: this isn't very clean - I worked with the values section until it took everything. If I did this again, I'd probably run the 'replace' procedure across the dataframe futher above.
+# Note: this isn't very clean - I worked with the values section until it took everything. If I did this again, 
+# I'd probably run the 'replace' procedure across the dataframe further above.
 for i, row in enumerate(df_co_river_basin.itertuples(), 1):
     testEvent = pd.read_sql("SELECT Event FROM CO_River_Basin WHERE Event = " + str(row.Event), conn)
     if testEvent.empty == True:

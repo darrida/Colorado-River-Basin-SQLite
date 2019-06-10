@@ -9,11 +9,13 @@ The reposity is associated with three files:
 The Jupyter Notebook and Python files are located here; see the Source section below for the location of the data file.
 
 ## Source
-The spreadsheet I inserted from, as well as more information about it, can be found here: https://transboundarywaters.science.oregonstate.edu/content/collection-research-and-datasets-colorado-river-basin
+Project site that the data originates from: https://transboundarywaters.science.oregonstate.edu/content/collection-research-and-datasets-colorado-river-basin
 
-Direction download link: https://transboundarywaters.science.oregonstate.edu/sites/transboundarywaters.science.oregonstate.edu/files/Database/ResearchProjects/Colorado/Final_WWIS_UC_Event_Database.xls
+**Direction download link**: https://transboundarywaters.science.oregonstate.edu/sites/transboundarywaters.science.oregonstate.edu/files/Database/ResearchProjects/Colorado/Final_WWIS_UC_Event_Database.xls
 
 **Citation**: “Product of the Transboundary Freshwater Dispute Database, College of Earth, Ocean, and Atmospheric Sciences, Oregon State University.  Additional information about the TFDD can be found at: http://transboundarywaters.science.oregonstate.edu.” 
+
+Side note: I am not associated with the creation of that project or Oregon State University.
 
 ## SQL Script for SQLite table:
 ```
